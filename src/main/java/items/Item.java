@@ -2,8 +2,8 @@ package items;
 
 
 public abstract class Item {
-    protected double buyingPrice;
-    protected double sellingPrice;
+    private double buyingPrice;
+    private double sellingPrice;
 
 
     public Item(double buyingPrice, double sellingPrice) {
@@ -23,8 +23,5 @@ public abstract class Item {
         this.sellingPrice = sellingPrice;
         return sellingPrice;
     }
-
-
-
-    }
+}
 

@@ -7,8 +7,8 @@ import java.util.ArrayList;
 public class Shop {
     private ArrayList<Item> stock;
 
-    public Shop(ArrayList<Item> stock) {
-        this.stock = stock;
+    public Shop() {
+        this.stock = new ArrayList<Item>();
     }
 
     public void addItem(Item item) {
