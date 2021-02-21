@@ -19,8 +19,9 @@ public abstract class Item {
         return sellingPrice;
     }
 
-    public void setSellingPrice(double sellingPrice) {
+    public double setSellingPrice(double sellingPrice) {
         this.sellingPrice = sellingPrice;
+        return sellingPrice;
     }
 
 

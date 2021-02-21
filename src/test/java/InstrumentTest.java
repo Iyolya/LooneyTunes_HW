@@ -49,5 +49,10 @@ public class InstrumentTest {
         assertEquals(1300.00, piano.getSellingPrice(), 0.01);
     }
 
+    @Test
+    public void canChangeSellingPrice() {
+        assertEquals(1150.00, piano.setSellingPrice(1150.00), 0.01);
+    }
+
 
 }
