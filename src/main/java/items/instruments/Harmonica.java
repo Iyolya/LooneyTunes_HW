@@ -18,7 +18,7 @@ public class Harmonica extends Instrument {
     }
 
     public String play(){
-        return "plays Once upon a time in the west ";
+        return "plays Once upon a time in the west";
     }
 
 
