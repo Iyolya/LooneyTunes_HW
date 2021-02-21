@@ -31,10 +31,15 @@ public class ShopTest {
 
     }
 
-//    @Test
-//    public void canRemoveItem() {
-//    }
-//
+    @Test
+    public void canRemoveItem() {
+        shop.addItem(accordionBag);
+        shop.addItem(guitarBag);
+        shop.addItem(drumCover);
+        shop.removeItem(drumCover);
+        assertEquals(2, shop.itemCountInShop());
+    }
+
 //    @Test
 //    public void canCountItemsInShop() {
 //    }
