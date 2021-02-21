@@ -10,4 +10,16 @@ public class Shop {
     public Shop(ArrayList<Item> stock) {
         this.stock = stock;
     }
+
+    public void addItem(Item item) {
+        this.stock.add(item);
+    }
+
+    public void removeItem(Item item) {
+        this.stock.remove(item);
+    }
+
+    public int itemCountInShop() {
+        return this.stock.size();
+    }
 }
