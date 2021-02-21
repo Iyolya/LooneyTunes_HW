@@ -34,5 +34,10 @@ public class InstrumentTest {
         assertEquals("Fazioli", piano.getBrand());
     }
 
+    @Test
+    public void instrumentWorksProperly() {
+        assertEquals("plays Clair de Lune", piano.play());
+    }
+
 
 }
