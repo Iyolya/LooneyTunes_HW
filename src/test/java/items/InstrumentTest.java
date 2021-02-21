@@ -1,4 +1,5 @@
-package instrumentTests;
+package items;
+
 import items.InstrumentType;
 import items.instruments.Accordion;
 import items.instruments.Drum;
