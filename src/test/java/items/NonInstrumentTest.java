@@ -32,5 +32,10 @@ public class NonInstrumentTest{
         assertEquals(30.00, musicStand.getSellingPrice(), 0.01);
     }
 
+    @Test
+    public void canSetSellingPrice() {
+        assertEquals(8.00, instrumentBag.setSellingPrice(8.00), 0.01);
+    }
+
 
 }
