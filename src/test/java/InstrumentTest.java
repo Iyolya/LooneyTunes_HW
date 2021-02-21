@@ -21,7 +21,7 @@ public class InstrumentTest {
     @Before
     public void before() {
         harmonica = new Harmonica(10.99, 20.99, InstrumentType.HARMONICA, "Hammond", "G");
-        piano = new Piano(20.00, 52.69, InstrumentType.PIANO, "Fazioli", "Upright");
+        piano = new Piano(900.00, 1300.00, InstrumentType.PIANO, "Fazioli", "Upright");
     }
 
     @Test
@@ -37,6 +37,11 @@ public class InstrumentTest {
     @Test
     public void instrumentWorksProperly() {
         assertEquals("plays Clair de Lune", piano.play());
+    }
+
+    @Test
+    public void checkBuyingPrice() {
+        assertEquals(900.00, piano.getBuyingPrice(), 0.01);
     }
 
 
