@@ -29,5 +29,10 @@ public class InstrumentTest {
         assertEquals("G", harmonica.getHarmonicaType());
     }
 
+    @Test
+    public void canGetBrand() {
+        assertEquals("Fazioli", piano.getBrand());
+    }
+
 
 }
