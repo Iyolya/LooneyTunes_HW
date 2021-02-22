@@ -40,7 +40,4 @@ public class ShopTest {
         assertEquals(2, shop.itemCountInShop());
     }
 
-//    @Test
-//    public void canCountItemsInShop() {
-//    }
 }
